@@ -4,7 +4,7 @@
   "description": "Quote generator",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/main.css"
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/main.css"
   },
   "author": "Orla",
   "license": "ISC",
