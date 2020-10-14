@@ -12,12 +12,24 @@
 </head>
 <body>
 
-<h1>Quote Generator</h1>
-
-<div id="quoteDisplay">
-    <!--quotes generated here-->
+<div class="container">
+    <div class="row quote-container d-flex align-items-center">
+        <div class="col-7">
+            <div class="quote-generator">
+                <h1 class="main-title">Scott's Quotes</h1>
+                <h4>The best of Michael Gary Scott.</h4>
+                <button onclick="newQuote()" class="btn btn--blue mt-5">Click for quote</button>
+                <div id="quoteDisplay" class="mt-5">
+                    <!--quotes generated here-->
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="image-container">
+            </div>
+        </div>
+    </div>
 </div>
-<button onclick="newQuote()">New awesome quote</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
