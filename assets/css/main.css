@@ -1,0 +1,30 @@
+body {
+  background: -webkit-linear-gradient(left, #00ccff, #5070ff);
+  -webkit-animation: hue-rotate 15s infinite linear; }
+
+.main-title {
+  font-size: 56px; }
+
+.quote-container {
+  height: 100vh; }
+
+.quote-generator {
+  position: relative; }
+
+.btn--blue {
+  background-color: #0c2386;
+  color: #fff;
+  padding: 20px; }
+
+#quoteDisplay {
+  position: absolute;
+  top: 210px; }
+
+.image-container {
+  height: 600px;
+  width: 500px;
+  background-image: url("https://www.business.com/images/content/5ca/3d4125a215e8a458b7996/1500-0-");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 48px 64px -24px rgba(0, 0, 0, 0.3); }
