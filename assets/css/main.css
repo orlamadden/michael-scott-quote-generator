@@ -1,13 +1,9 @@
-body {
-  background: -webkit-linear-gradient(left, #675cff, #5070ff);
-  -webkit-animation: hue-rotate 15s infinite linear; }
-
 .main-title {
   font-size: 60px;
-  color: #ffffff; }
+  color: #2b2b2b; }
 
 .secondary-title {
-  color: #ffffff; }
+  color: #2b2b2b; }
 
 .quote-container {
   margin-top: 50px;
@@ -16,17 +12,17 @@ body {
 
 .quote-display {
   font-size: 1.4rem;
-  color: #ffffff; }
+  color: #2b2b2b; }
 
-.btn--blue {
-  background-color: #910d5a;
+.btn--black {
+  background-color: #2b2b2b;
   color: #ffffff;
   padding: 20px;
   border: 2px solid;
   text-transform: uppercase;
-  box-shadow: 0 18px 24px -24px rgba(0, 0, 0, 0.3); }
-  .btn--blue:hover {
-    background-color: #771066;
+  box-shadow: 0 18px 24px -24px rgba(0, 0, 0, 0.445); }
+  .btn--black:hover {
+    background-color: #161616;
     color: #fff;
     box-shadow: 0 8px 14px -24px rgba(0, 0, 0, 0.3); }
 
@@ -40,4 +36,4 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 48px 64px -24px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 48px 54px -22px rgba(0, 0, 0, 0.5); }
