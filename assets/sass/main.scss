@@ -1,34 +1,52 @@
-$color-primary: #0c2386;
+$color-primary: #910d5a;
+$color-secondary: rgb(119, 16, 102);
+$color-white: #ffffff;
 
 body {
-    background: -webkit-linear-gradient(left, #00ccff, #5070ff);
+    background: -webkit-linear-gradient(left, #675cff, #5070ff);
     -webkit-animation: hue-rotate 15s infinite linear;
 }
 
 .main-title {
-    font-size: 56px;
+    font-size: 60px;
+    color: $color-white;
+}
+
+.secondary-title {
+    color: $color-white;
 }
 
 .quote-container {
+    margin-top: 50px;
     height: 100vh;
+    position: relative;
 }
 
-.quote-generator {
-    position: relative;
+.quote-display {
+    font-size: 1.4rem;
+    color: $color-white;
 }
 
 .btn--blue {
     background-color: $color-primary;
-    color: #fff;
+    color: $color-white;
     padding: 20px;
+    border: 2px solid;
+    text-transform: uppercase;
+    box-shadow: 0 18px 24px -24px rgba(0, 0, 0, 0.3);
+
+    &:hover {
+        background-color: $color-secondary;
+        color: #fff;
+        box-shadow: 0 8px 14px -24px rgba(0, 0, 0, 0.3);
+    }
 }
 
-#quoteDisplay {
-    position: absolute;
-    top: 210px;
+.hero-text {
+    margin-top: 100px;
 }
 
-.image-container {
+.hero-image {
     height: 600px;
     width: 500px;
     background-image: url("https://www.business.com/images/content/5ca/3d4125a215e8a458b7996/1500-0-");
