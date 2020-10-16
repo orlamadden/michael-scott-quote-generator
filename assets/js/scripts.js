@@ -11,7 +11,21 @@ let quotes = [
     "If I had a gun with two bullets and I was in a room with Hitler, Bin Laden, and Toby, I would shoot Toby twice.",
     "You know what they say. 'Fool me once, strike one, but fool me twice...strike three.",
     "You cheated on me?....When I specifically asked you not to?",
-    "I'm not superstitious, but I am a little stitious."
+    "I'm not superstitious, but I am a little stitious.",
+    "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.",
+    "Dwight, you ignorant slut!",
+    "Webster's Dictionary defines wedding as: The fusing of two metals with a hot torch.",
+    "Sometimes I'll start a sentence and I don't even know where it's going. I just hope I find it along the way.",
+    "There were these huge bins of clothes and everybody was rifling through them like crazy. And I grabbed one and it fit! So I don't think that this is totally just a woman's suit. At the very least it's bisexual.",
+    "I am Beyoncé, always.",
+    "And I knew exactly what to do. But in a much more real sense, I had no idea what to do.",
+    "When the son of the deposed king of Nigeria emails you directly, asking for help, you help! His father ran the freaking country! Ok?",
+    "I am running away from my responsibilities. And it feels good.",
+    "Society teaches us that having feelings and crying is bad and wrong. Well, that's baloney, because grief isn't wrong. There's such a thing as good grief. Just ask Charlie Brown.",
+    "Saw Inception. Or at least I dreamt I did.",
+    "Number 8. Learn how to take off a woman's bra: You just twist your hand until something breaks.",
+    "I love my employees even though I hit one of you with my car."
+
 ]
 
 function newQuote() {
