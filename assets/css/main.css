@@ -36,7 +36,7 @@ body {
 .hero-image {
   height: 600px;
   width: 500px;
-  background-image: url("https://www.business.com/images/content/5ca/3d4125a215e8a458b7996/1500-0-");
+  background-image: url("/assets/img/m-scott.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
