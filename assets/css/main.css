@@ -1,26 +1,39 @@
 body {
-  background: -webkit-linear-gradient(left, #00ccff, #5070ff);
+  background: -webkit-linear-gradient(left, #675cff, #5070ff);
   -webkit-animation: hue-rotate 15s infinite linear; }
 
 .main-title {
-  font-size: 56px; }
+  font-size: 60px;
+  color: #ffffff; }
+
+.secondary-title {
+  color: #ffffff; }
 
 .quote-container {
-  height: 100vh; }
-
-.quote-generator {
+  margin-top: 50px;
+  height: 100vh;
   position: relative; }
 
+.quote-display {
+  font-size: 1.4rem;
+  color: #ffffff; }
+
 .btn--blue {
-  background-color: #0c2386;
-  color: #fff;
-  padding: 20px; }
+  background-color: #910d5a;
+  color: #ffffff;
+  padding: 20px;
+  border: 2px solid;
+  text-transform: uppercase;
+  box-shadow: 0 18px 24px -24px rgba(0, 0, 0, 0.3); }
+  .btn--blue:hover {
+    background-color: #771066;
+    color: #fff;
+    box-shadow: 0 8px 14px -24px rgba(0, 0, 0, 0.3); }
 
-#quoteDisplay {
-  position: absolute;
-  top: 210px; }
+.hero-text {
+  margin-top: 100px; }
 
-.image-container {
+.hero-image {
   height: 600px;
   width: 500px;
   background-image: url("https://www.business.com/images/content/5ca/3d4125a215e8a458b7996/1500-0-");
